@@ -1,0 +1,23 @@
+{
+  "name": "mid-term-project",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ironhack Barcelona Feb 2022 Front-end Development Bootcamp Mid-term Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leanjp84/mid-term-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leanjp84/mid-term-project/issues"
+  },
+  "homepage": "https://github.com/leanjp84/mid-term-project#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.1"
+  }
+}
