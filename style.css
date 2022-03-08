@@ -305,16 +305,17 @@ header button {
 /* //////////////////////////////////// PROJECTS SECTION */
 
 #recent-projects {
-    padding: 7%;
-    margin: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
 }
 .projects  {
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 50px;
 }
 .projects h2 {
@@ -324,8 +325,8 @@ header button {
     display: grid; 
     grid-template-columns: repeat(3, 30%); 
     grid-template-rows: 1fr; 
-    grid-column-gap: 10%;
-    grid-row-gap: 20px; 
+    grid-column-gap: 5%;
+    grid-row-gap: 5%; 
 }
 .project-text  {
     width: 340px;
