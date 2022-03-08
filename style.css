@@ -910,12 +910,10 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
     }
     #recent-projects {
         padding: 2%;
-        border: 1px solid black;
         display: flex;
         justify-content: center;
     }
     .container-projects {
-        border: 1px solid black;
         width: 100%;
         height: 100%;
         display: flex; 
