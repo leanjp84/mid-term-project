@@ -1,0 +1,114 @@
+ /* //////////////////////////////////// HEADER PROJECTS SECTION */
+#projects-blog {
+    margin-top: 5%;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.project-header {
+    margin-left: 0%;
+    color: #292E47;
+}
+.projects-info {
+    max-width: 90%;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #6B708D;
+}
+.project-description {
+    display: flex;
+}
+ .project-date {
+     display: flex;
+ }
+ /* //////////////////////////////////// POST SECTION */
+#project-post {
+    margin-top: 5%;
+    max-width: 80%;
+    height: 900px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.post-image{
+    width:100%;
+    height: 444px;
+    overflow: hidden;
+    box-shadow: 5px 10px 16px 10px rgba(151, 16, 192, 0.3);
+}
+.post-image img {
+    width:100%;
+    height: 444px;
+    object-fit: cover; 
+}
+.post-text {
+    margin-top: 50px;
+    color:#6B708D;
+}
+ /* //////////////////////////////////// RECOMMEND POSTS SECTION */
+ #other-projects {
+    max-width: 80%;
+    padding: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+}
+.other-projects2  {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.container-projects2 {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 1fr; 
+    grid-column-gap: 10%;
+    grid-row-gap: 10%; 
+}
+.other-projects h2 {
+    color:#292E47;
+}
+.project-title4 {
+    /* insert javascript here */
+}
+.project-title15 {
+    /* insert javascript here */
+}
+.project-title6 {
+    /* insert javascript here */
+}
+.project-card4 {
+    grid-area: 1 / 1 / 2 / 2; 
+    width: 340px;
+    height: 444px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 46.5686px 93.1373px rgba(0, 0, 0, 0.1); 
+    color:#292E47
+    } 
+.project-card5 {
+    grid-area: 1 / 2 / 2 / 3;
+    width: 340px;
+    height: 444px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 46.5686px 93.1373px rgba(0, 0, 0, 0.1); 
+    color:#292E47;
+}
+.project-card6 {
+    grid-area: 1 / 3 / 2 / 4; 
+    width: 340px;
+    height: 444px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 46.5686px 93.1373px rgba(0, 0, 0, 0.1); 
+    color:#292E47
+}
+.project-card4:hover, .project-card5:hover, .project-card6:hover
+    {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
+
+

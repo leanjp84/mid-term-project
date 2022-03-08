@@ -7,4 +7,6 @@ async function getWithFetch() {
 }
 getWithFetch();
 
-//json-server --watch db.json --port 3000
+//  json-server --watch db.json --port 3000
+
+//  document.getElementById("myForm").submit();

@@ -306,7 +306,7 @@ header button {
     display: flex;
     justify-content: center;
 }
-.projects .h2 {
+.projects  {
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
@@ -318,7 +318,7 @@ header button {
     display: grid; 
     grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: 1fr; 
-    grid-column-gap: 30px;
+    grid-column-gap: 10%;
     grid-row-gap: 20px; 
 }
 .project-text  {
@@ -532,7 +532,7 @@ header button {
  }
 
 /* //////////////////////////////////// SERVICES SECTION */
-.services-section {
+#services-section {
     padding: 7%;
     display: flex;
     justify-content: center;
@@ -637,14 +637,16 @@ header button {
     }
 
 /* //////////////////////////////////// CALL TO ACTION SECTION */
-.cta-section {
-    margin-top: 5%;
+#cta-section {
+    max-width: 80%;
+    padding: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
     justify-content: center;
-    position: relative;
-    max-width: 90%;
-    margin: auto;
-}
+    }   
 .cta {
     background-color:#FFC600;
     width: 100%;
@@ -724,7 +726,7 @@ footer {
     width: 370px;
     grid-template-columns: 30% 30% 40%; 
     grid-template-rows: 45% 45%; 
-    gap: 5px 10px; 
+    gap: 10% 10%; 
     grid-template-areas: 
       "site1 site2 site3"
       "site4 site5 site6"; 
@@ -741,4 +743,119 @@ footer {
     text-decoration: none;
     cursor: pointer;
     font-weight: 400;
-  }
+    transition: all 0.3s ease 0s;
+    color:#6B708D;
+  } 
+ 
+  .map-site a:active {color:#072AC8}
+  .map-site a:visited {color:#292E47}
+  .map-site a:hover {color:#3D9FFF}
+
+
+  /* //////////////////////////////////// CONTACT PAGE */
+#contact-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:5%;
+    padding-bottom: 50px;
+    max-width: 80%;
+    margin: auto;
+}
+.form-title {
+    color: #292E47;
+}
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+    font-size: 10px;
+    color: #999;
+    top: -5px;
+    transition: all 0.225s ease;
+}
+
+.styled-input {
+    float: left;
+    width: 48%;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+.styled-input label {
+    color: #999;
+   font-size: 16px;
+    padding: 1.3rem 30px 1rem 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.styled-input.wide { 
+    width: 100%;
+    max-width: 100%;
+}
+
+input,
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 16px;
+    background-color:rgba(107, 112, 141, 0.1);
+    color:#292E47
+}
+
+input:focus,
+textarea:focus { outline: 0; }
+
+input:focus,
+textarea:focus {
+    width: 100%;
+    transition: all 0.075s ease;
+}
+
+textarea {
+    width: 100%;
+    min-height: 15em;
+}
+
+.input-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+    width:100%;
+    height: 50px;
+    padding: 15px 35px;
+    display: inline-block;
+    background-color:#072AC8;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
+              0 2px 10px 0 rgba(0,0,0,0.07);
+    transition: all 300ms ease;
+
+}
+
+.submit-btn:hover {
+    transform: translateY(1px);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+              0 1px 1px 0 rgba(0,0,0,0.09);
+}
+
+
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+} 
+
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
+
