@@ -4,19 +4,45 @@
             "id": 1,
             "title": "Simplify",
             "description": "UI Design & App Development",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse suscipit at mauris a tempor. Aenean viverra quam sit amet scelerisque dignissim. Nunc ac scelerisque diam, non varius turpis. Vivamus blandit id eros sed feugiat. Donec nec tincidunt tellus, gravida sagittis justo. Sed id felis nec eros varius vestibulum sit amet fermentum nisl. Sed tempor eget massa sed commodo. Curabitur sit amet quam aliquam risus gravida pretium."
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse suscipit at mauris a tempor. Aenean viverra quam sit amet scelerisque dignissim. Nunc ac scelerisque diam, non varius turpis. Vivamus blandit id eros sed feugiat. Donec nec tincidunt tellus, gravida sagittis justo. Sed id felis nec eros varius vestibulum sit amet fermentum nisl. Sed tempor eget massa sed commodo. Curabitur sit amet quam aliquam risus gravida pretium.",
+            "img": "projects-section/1.jpg"
         },
         {
             "id": 2,
             "title": "Dashcoin",
             "description": "Web Development",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse suscipit at mauris a tempor. Aenean viverra quam sit amet scelerisque dignissim. Nunc ac scelerisque diam, non varius turpis. Vivamus blandit id eros sed feugiat. Donec nec tincidunt tellus, gravida sagittis justo. Sed id felis nec eros varius vestibulum sit amet fermentum nisl. Sed tempor eget massa sed commodo. Curabitur sit amet quam aliquam risus gravida pretium."
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse suscipit at mauris a tempor. Aenean viverra quam sit amet scelerisque dignissim. Nunc ac scelerisque diam, non varius turpis. Vivamus blandit id eros sed feugiat. Donec nec tincidunt tellus, gravida sagittis justo. Sed id felis nec eros varius vestibulum sit amet fermentum nisl. Sed tempor eget massa sed commodo. Curabitur sit amet quam aliquam risus gravida pretium.",
+            "img": "projects-section/2.jpg"
         },
         {
             "id": 3,
             "title": "Vectorify",
             "description": "User Experience Design",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse suscipit at mauris a tempor. Aenean viverra quam sit amet scelerisque dignissim. Nunc ac scelerisque diam, non varius turpis. Vivamus blandit id eros sed feugiat. Donec nec tincidunt tellus, gravida sagittis justo. Sed id felis nec eros varius vestibulum sit amet fermentum nisl. Sed tempor eget massa sed commodo. Curabitur sit amet quam aliquam risus gravida pretium."
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse suscipit at mauris a tempor. Aenean viverra quam sit amet scelerisque dignissim. Nunc ac scelerisque diam, non varius turpis. Vivamus blandit id eros sed feugiat. Donec nec tincidunt tellus, gravida sagittis justo. Sed id felis nec eros varius vestibulum sit amet fermentum nisl. Sed tempor eget massa sed commodo. Curabitur sit amet quam aliquam risus gravida pretium.",
+            "img": "projects-section/3.jpg"
+        }
+    ],
+    "posts2": [
+        {
+            "id": 4,
+            "title": "Orbity",
+            "description": "UI Design",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse suscipit at mauris a tempor. Aenean viverra quam sit amet scelerisque dignissim. Nunc ac scelerisque diam, non varius turpis. Vivamus blandit id eros sed feugiat. Donec nec tincidunt tellus, gravida sagittis justo. Sed id felis nec eros varius vestibulum sit amet fermentum nisl. Sed tempor eget massa sed commodo. Curabitur sit amet quam aliquam risus gravida pretium.",
+            "img": "/projects-section/4.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Purify",
+            "description": "UI/UX Design",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse suscipit at mauris a tempor. Aenean viverra quam sit amet scelerisque dignissim. Nunc ac scelerisque diam, non varius turpis. Vivamus blandit id eros sed feugiat. Donec nec tincidunt tellus, gravida sagittis justo. Sed id felis nec eros varius vestibulum sit amet fermentum nisl. Sed tempor eget massa sed commodo. Curabitur sit amet quam aliquam risus gravida pretium.",
+            "img": "/projects-section/5.jpg"
+        },
+        {
+            "id": 6,
+            "title": "CryptoPie",
+            "description": "App Development",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse suscipit at mauris a tempor. Aenean viverra quam sit amet scelerisque dignissim. Nunc ac scelerisque diam, non varius turpis. Vivamus blandit id eros sed feugiat. Donec nec tincidunt tellus, gravida sagittis justo. Sed id felis nec eros varius vestibulum sit amet fermentum nisl. Sed tempor eget massa sed commodo. Curabitur sit amet quam aliquam risus gravida pretium.",
+            "img": "/projects-section/6.jpg"
         }
     ],
     "messages": [
