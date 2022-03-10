@@ -17,25 +17,3 @@ const createMessage = async (e) => {
 
     window.location.replace('/index.html');
 }
-
-
-form.addEventListener("submit-btn", createMessage);
-
-
-
-
-
-// "http://localhost:3000/messages";
-
-// function guardarDatos() {
-
-//     var name = document.form["contact"]["fullname"].value;
-//     var email = document.form["contact"]["email"].value;
-//     var phone = document.form["contact"]["phone"].value;
-//     var message = document.form["contact"]["message"].value;
-
-//     var messages = { 'fullname': name, 'email': email, 'phone': phone, 'message': message, };
-
-//     alert(datos['fullname']);
-// }
-// guardarDatos()

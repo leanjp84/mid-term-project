@@ -1,27 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
- * :root {
-    --blue: #072AC8;
-    --cyan:  #43D2FF;
-    --light-blue-1: #A2D6F9;
-    --light-blue-2: #D1EDFF;
-    --dark-grey: #292E47;
-    --grey: #6B708D;
-    --back-grey: #F2F4FC;
-    --light-blue3: #ECF7FF;
-    --yellow: #FFC600;
-} 
 * {
     box-sizing: border-box;
-    
 }
-
 html, body {
+    max-width: 1200px;
     font-family: Roboto, sans-serif;
     background-color: #F2F4FC;
-    max-width: 1440px;
 }
-
 h1{
 font-family: Roboto;
 font-size: 60px;
@@ -31,7 +17,6 @@ line-height: 70px;
 letter-spacing: 0em;
 text-align: left;
 }
-
 h2{
 font-family: Roboto;
 font-size: 40px;
@@ -41,7 +26,6 @@ line-height: 59px;
 letter-spacing: 0em;
 text-align: left;
 }
-
 h3{
 font-family: Roboto;
 font-size: 40px;
@@ -51,7 +35,6 @@ line-height: 47px;
 letter-spacing: 0em;
 text-align: left;
 }
-
 h4{
 font-family: Roboto;
 font-size: 24px;
@@ -61,7 +44,6 @@ line-height: 28px;
 letter-spacing: 0em;
 text-align: left;
 }
-
 .body-medium {
 font-family: Roboto;
 font-size: 24px;
@@ -71,7 +53,6 @@ line-height: 28px;
 letter-spacing: 0em;
 text-align: left;
 } 
-
 .body-regular {
 font-family: Roboto;
 font-size: 20px;
@@ -81,7 +62,6 @@ line-height: 30px;
 letter-spacing: 0em;
 text-align: left;
 }
-
 .headline-regular {
 font-family: Roboto;
 font-style: normal;
@@ -92,7 +72,6 @@ line-height: 26px;
 letter-spacing: 0em;
 text-align: left;
 }
-
 .headline-medium {
 font-family: Roboto;
 font-size: 17px;
@@ -102,7 +81,6 @@ line-height: 22px;
 letter-spacing: 0em;
 text-align: left;
 }
-
 .caption1 {
 font-family: Roboto;
 font-size: 15px;
@@ -112,7 +90,6 @@ line-height: 18px;
 letter-spacing: 0em;
 text-align: left;
 }
-
 .caption2 {
 font-family: Roboto;
 font-size: 13px;
@@ -132,7 +109,7 @@ header {
     padding: 50px 10%;
 }
 a:hover {color:#072AC8}
-/* a:visited {color:#072AC8;}*/ 
+a:visited {color:#43D2FF;}
 
 .logo {
     cursor: pointer;
@@ -142,7 +119,6 @@ font-weight: 500;
 font-size: 17px;
 line-height: 130%;
 }
-
 nav li {
     display: inline-block;
     padding: 0px 20px;
@@ -285,6 +261,7 @@ header button {
     width: 100%;
    margin:auto;
    padding-top: 50px;
+   padding-right: 50px;
 }
 .clients ul {
     width: 100%;
@@ -308,6 +285,8 @@ header button {
 #recent-projects {
     padding-left: 2%;
     padding-right: 2%;
+    padding-top: 100px;
+    padding-bottom: 100px;
     max-width: 100%;
     display: flex;
     justify-content: center;
@@ -321,6 +300,7 @@ header button {
 }
 .projects h2 {
     color:#292E47;
+    padding-bottom: 50px;
 }
 .container-projects {
     display: flex; 
@@ -342,7 +322,6 @@ header button {
     letter-spacing: 0em;
     text-align: left;
 }
-
 .project-card {
     width: 340px;
     height: 444px;
@@ -361,7 +340,6 @@ header button {
 /* //////////////////////////////////// TESTIMONIALS SECTION */
 .section-testimonials {
     max-width: 100%;
-    margin-top: 5%;
     display: flex;
     justify-content: center;
     position: relative;
@@ -515,24 +493,29 @@ header button {
 /* //////////////////////////////////// SERVICES SECTION */
 #services-section {
     width: 100%;
-    padding: 7%;
+    padding-top: 5%;
+    padding-bottom: 10%;
     display: flex;
     justify-content: center;
 }
 .services  {
     display: flex;
+    width: 80%;
     flex-direction: column;
     padding-bottom: 50px;
 }
 .services h2 {
     color:#292E47;
+    margin-bottom: 100px;
 }
 .services-container {
     display: grid; 
+    margin: 0px;
+    padding: 0px;
     grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: 1fr; 
-    grid-column-gap: 30px;
-    grid-row-gap: 20px; 
+    column-gap:2%
+    grid-row-gap: 2%; 
 }
 .service-text  {
     width: 340px;
@@ -738,11 +721,9 @@ footer {
     transition: all 0.3s ease 0s;
     color:#6B708D;
   } 
- 
   .map-site a:active {color:#072AC8}
   .map-site a:visited {color:#292E47}
   .map-site a:hover {color:#3D9FFF}
-
 
   /* //////////////////////////////////// CONTACT PAGE */
 #contact-page {
@@ -767,7 +748,6 @@ textarea:valid ~ label {
     top: -3px;
     transition: all 0.225s ease;
 }
-
 .styled-input {
     float: left;
     width: 48%;
@@ -775,7 +755,6 @@ textarea:valid ~ label {
     position: relative;
     border-radius: 4px;
 }
-
 .styled-input label {
     color: #999;
    font-size: 18px;
@@ -786,7 +765,6 @@ textarea:valid ~ label {
     transition: all 0.25s ease;
     pointer-events: none;
 }
-
 .styled-input.wide { 
     width: 100%;
     max-width: 100%;
@@ -801,7 +779,6 @@ textarea:valid ~ label {
     background-color:rgba(107, 112, 141, 0.1);
     color:#292E47
 }
-
 .input-container input:focus, textarea:focus {
     outline: 0;
     width: 100%;
@@ -811,13 +788,11 @@ textarea:valid ~ label {
     width: 100%;
     min-height: 15em;
 }
-
 .input-container {
     width: 100%;
     max-width: 100%;
     margin: 20px auto 25px auto;
 }
-
 .submit-btn {
     width:100%;
     height: 60px;
@@ -831,7 +806,6 @@ textarea:valid ~ label {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.06),
               0 2px 10px 0 rgba(0,0,0,0.07);
     transition: all 300ms ease;
-
 }
 .submit-btn:hover {
     transform: translateY(1px);
@@ -839,9 +813,28 @@ textarea:valid ~ label {
               0 1px 1px 0 rgba(0,0,0,0.09);
 }
   /* //////////////////////////////////// MEDIA QUERIES */
-  
+
   /* //////////////////////////////////////////TABLET  */
-@media (max-width: 768px) { 
+  @media (min-width: 768px) and (max-width:900px){
+    
+    header button {
+        padding: 10px 20px;
+        background-color: #072AC8;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 130%;
+        text-align: center;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0px 10px;
+        list-style-type: none;
+    }
     .hero-container {
         display: flex;
         flex-direction: column;
@@ -910,8 +903,7 @@ textarea:valid ~ label {
         justify-content: space-around;
         row-gap: 20px;
    }
-   
-   .project-card1, .prpject-card2, .project-card3 {
+   .project-card {
        grid-area: none;
         display: flex; 
         flex-wrap: wrap;
@@ -957,15 +949,15 @@ textarea:valid ~ label {
  }
 }
   /* ////////////////////////////////////////// PHONE */
-@media (max-width: 575.98px) {
+@media (min-width: 390px) and (max-width: 575.98px) {
     header {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         padding: 10% 5%;
     }
     header button {
-        padding: 10px 20px;
+        padding: 8px 12px;
         background-color: #072AC8;
         color: white;
         border: none;
@@ -977,22 +969,38 @@ textarea:valid ~ label {
         line-height: 130%;
         text-align: center;
     }
+    nav li {
+        display: block;
+        padding: 5px;
+        list-style-type: none;
+    }
+    .menu-items {
+        text-align: center;
+    }
     #hero {
         padding:0%;
+        width: 100%;
     }
     .hero-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
         width: 100%;
-        margin-top: 5%;
+        height: 1100px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 0px;
      }
      .content {
-    max-width: 370px;
-      padding: 0%;
-      margin: 1%;
-
+        padding: 0px;
+        width: 100%;
     }
     .content h1 {
-        padding: 2%;
-       margin-top: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        margin-top: 0px;
+        width: 100%;
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
@@ -1003,9 +1011,7 @@ textarea:valid ~ label {
     .content p {
         max-width: 370px;
         height: auto;
-        padding: 2%;
-        margin: 2%;
-         font-family: Roboto;
+        font-family: Roboto;
         font-style: normal;
         font-weight: normal;
         font-size: 20px;
@@ -1042,23 +1048,21 @@ textarea:valid ~ label {
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     }
     .hero-image img {
-        margin-left: 5px;
-        margin-right: 5px;
+        margin: 0px;
+        padding: 0px;
         max-width: 370px;
-        max-height: 650px; 
+        max-height: 650px;    
     }
      .hero-image {
-        margin:2%;
-        padding-top: 30px;
         position: relative;
-        margin: auto;
+        margin: 0px;
     }
      .card2, .card1 {
         display: none;
     }
     .clients {
         width: 100%;
-        padding-top: 30px;
+        padding-top: 0px;
        margin: auto;
     }
     .clients ul {
@@ -1085,10 +1089,24 @@ textarea:valid ~ label {
         justify-content: space-around;
         row-gap: 20px;
    }
-    .project-card1, .prpject-card2, .project-card3 {
+   .project-card {
+        width: 240px;
+        height: 400px;
         grid-area: none;
         display: flex; 
         flex-wrap: wrap;
+        background-color: #FFFFFF;
+        box-shadow: 0px 46.5686px 93.1373px rgba(0, 0, 0, 0.1); 
+        color:#292E47
+    } 
+    .project-img img {
+        width: 240px;
+        height: 180px;
+    }
+    .project-text  {
+        width: 240px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .section-testimonials {
         max-width: 100%;
@@ -1128,7 +1146,6 @@ textarea:valid ~ label {
     .form__email {
          width: 300px;
     }
-    
     #cta-section{
         max-width: 100%;
         padding-left: 2%;

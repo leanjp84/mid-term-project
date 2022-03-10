@@ -32,7 +32,7 @@ const renderPosts = async () => {
 
     const res = await fetch(uri);
     const posts = await res.json();
-    console.log(posts);
+    //console.log(posts);
 
     let template = " ";
     posts.forEach(post => {
@@ -63,7 +63,7 @@ const renderPosts2 = async () => {
 
     const res2 = await fetch(uri2);
     const posts2 = await res2.json();
-    console.log(posts2);
+    //console.log(posts2);
 
     let template2 = " ";
     posts2.forEach(post => {
