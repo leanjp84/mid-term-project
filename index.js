@@ -90,26 +90,26 @@ window.addEventListener('DOMContentLoaded', () => renderPosts2());
 //  json-server --watch db.json --port 3000
 
 
-const form = document.querySelector("form");
+// const form = document.querySelector("form");
 
-const createMessage = async (e) => {
-    e.preventDefault();
+// const createMessage = async (e) => {
+//     e.preventDefault();
 
-    const doc = {
-        fullname: form.fullname.valueOf,
-        email: form.email.valueOf,
-        phone: form.phone.valueOf,
-        message: form.message.valueOf,
-    }
-    await fetch("http://localhost:3000/messages", {
-        method: "POST",
-        body: JSON.stringify(doc),
-        headers: { 'Content-Type': 'application/json' }
-    });
+//     const doc = {
+//         fullname: form.fullname.valueOf,
+//         email: form.email.valueOf,
+//         phone: form.phone.valueOf,
+//         message: form.message.valueOf,
+//     }
+//     await fetch("http://localhost:3000/messages", {
+//         method: "POST",
+//         body: JSON.stringify(doc),
+//         headers: { 'Content-Type': 'application/json' }
+//     });
 
-    window.location.replace('/index.html');
-}
+//     window.location.replace('/index.html');
+// }
 
 
-form.addEventListener("submit-btn", createMessage);
+// form.addEventListener("submit-btn", createMessage);
 
