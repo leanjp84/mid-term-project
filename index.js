@@ -1,7 +1,7 @@
 
 // "http://localhost:3000/posts";
 
-///////// FUNCIONA 
+////////////////////////////// INDEX PROJECT CARDS
 
 const container = document.querySelector('.container-projects');
 
@@ -33,7 +33,7 @@ const renderPosts = async () => {
 }
 window.addEventListener('DOMContentLoaded', () => renderPosts());
 
-
+/////////////////////////////////// PROJECTS PAGE CARDS
 
 const container2 = document.querySelector('.container-projects2');
 
@@ -68,3 +68,27 @@ window.addEventListener('DOMContentLoaded', () => renderPosts2());
 
 //  json-server --watch db.json --port 3000
 
+///////////////////////////////////////// FORM POST
+
+const form = document.querySelector("#contact-form");
+
+const createMessage = async (e) => {
+    e.preventDefault();
+
+    const doc = {
+        name: document.querySelector("fullname").value,
+        email: document.querySelector("email").value,
+        phone: document.querySelector("phone").value,
+        message: document.querySelector("message").value,
+    }
+    await fetch("http://localhost:3000/messages", {
+        method: "POST",
+        body: JSON.stringify(doc),
+        headers: { 'Content-Type': 'application/json' }
+    });
+
+    alert("Thanks for your message! We'll respond ASAP");
+    location.reload();
+
+}
+form.addEventListener('submit-btn', createMessage);

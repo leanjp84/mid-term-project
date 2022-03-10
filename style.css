@@ -514,8 +514,8 @@ header button {
     padding: 0px;
     grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: 1fr; 
-    column-gap:30px
-    grid-row-gap: 2%; 
+    column-gap:30px;
+    grid-row-gap: 2%;
 }
 .service-text  {
     width: 340px;

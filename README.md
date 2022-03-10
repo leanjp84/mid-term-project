@@ -11,3 +11,6 @@ HTML / CSS / JavaScript
 
 #### Live Version :desktop_computer:
 https://mid-term-project-leanjp84.netlify.app/
+
+##### Presentation Slides :blue_book:
+https://slides.com/leanjp84/deck
