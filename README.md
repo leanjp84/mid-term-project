@@ -3,9 +3,11 @@
 <h4>Ironhack Barcelona Feb 2022<br>Front-end Development Bootcamp <h4>
 
 ## Descripción 🚀
-Este es el ejercicio de medio término del Bootcam de Front-End, donde creamos una web responsive con algunos objetos dinamicos en JS
+This is the mid-term exercise of the Front-End Bootcamp, in which we create a responsive web with some dynamic objects in JS
 
 
 ### Tecnologías 🔧
 HTML / CSS / JavaScript
 
+#### Live Version :desktop_computer:
+https://mid-term-project-leanjp84.netlify.app/
