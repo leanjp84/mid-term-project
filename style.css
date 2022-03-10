@@ -880,7 +880,12 @@ textarea:valid ~ label {
         position: relative;
         margin: auto;
     }
-
+    .clients {
+        width: 90%;
+       margin:auto;
+       padding-top: 50px;
+    }
+  
      .card2 {
         display: none;
     }
@@ -994,7 +999,8 @@ textarea:valid ~ label {
      .content {
         padding: 0px;
         width: 100%;
-        padding-left: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .content h1 {
         padding-left: 0px;
@@ -1012,6 +1018,8 @@ textarea:valid ~ label {
     .content p {
         max-width: 370px;
         height: auto;
+        padding-left: 15px;
+        padding-right: 15px;
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
@@ -1050,13 +1058,12 @@ textarea:valid ~ label {
     }
     .hero-image img {
         margin: auto;
-        padding: 0px;
+        padding-top: 90px;
         max-width: 370px;
         max-height: 650px;    
     }
      .hero-image {
         position: relative;
-        margin: 0px;
         margin: auto;
     }
      .card2, .card1 {
@@ -1151,6 +1158,9 @@ textarea:valid ~ label {
         padding-left: 15px;
         padding-right: 15px;
     }
+    .services h2 {
+        margin-bottom: 50px;
+    }
     .service-text-link {
         padding-bottom: 10px;
     }
@@ -1167,6 +1177,12 @@ textarea:valid ~ label {
         max-width: 100%;
         padding-left: 2%;
         padding-right: 2%;
+    }
+    .form__button { 
+       font-size: 20px;
+    }
+    .form__email {
+     font-size: 17px;
     }
     footer {
         display: flex;
