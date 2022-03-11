@@ -144,6 +144,11 @@ header button {
     line-height: 130%;
     text-align: center;
 }
+header button:hover {
+    transform: translateY(1px);
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.5);
+}
+
 /* //////////////////////////////////// HERO SECTION */
 
 #hero {
