@@ -149,7 +149,7 @@ header button:hover {
     box-shadow: 0 8px 10px 0 rgba(0,0,0,0.5);
 }
 
-/* //////////////////////////////////// HERO SECTION */
+/* //////////////////////////////////////////////// HERO SECTION */
 
 #hero {
     padding:5%;
@@ -261,7 +261,7 @@ header button:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-/* //////////////////////////////////// CLIENTS SECTION */
+/* ////////////////////////////////////////////// CLIENTS SECTION */
 .clients {
     width: 100%;
    margin:auto;
@@ -285,7 +285,7 @@ header button:hover {
 }
 .clients img:hover {filter:none}
 
-/* //////////////////////////////////// PROJECTS SECTION */
+/* //////////////////////////////////////////// PROJECTS SECTION */
 
 #recent-projects {
     padding-left: 2%;
@@ -342,7 +342,7 @@ header button:hover {
     height: 240px;
 }
 
-/* //////////////////////////////////// TESTIMONIALS SECTION */
+/* ///////////////////////////////////////// TESTIMONIALS SECTION */
 .section-testimonials {
     max-width: 100%;
     display: flex;
@@ -495,7 +495,7 @@ header button:hover {
      height: 150px;
  }
 
-/* //////////////////////////////////// SERVICES SECTION */
+/* ///////////////////////////////////////////// SERVICES SECTION */
 #services-section {
     width: 100%;
     padding-top: 5%;
@@ -606,7 +606,7 @@ header button:hover {
     {box-shadow: 0 8px 10px 0 rgba(0,0,0,0.5);
     }
 
-/* //////////////////////////////////// CALL TO ACTION SECTION */
+/* //////////////////////////////////////// CALL TO ACTION SECTION */
 #cta-section {
     max-width: 100%;
     padding-left: 5%;
@@ -689,7 +689,7 @@ header button:hover {
     box-shadow: 0 8px 10px 0 rgba(0,0,0,0.5);
 }
 
-/* //////////////////////////////////// FOOTER SECTION */
+/* ////////////////////////////////////////////// FOOTER SECTION */
 footer {
     display: flex;
     justify-content: space-between;
@@ -730,7 +730,7 @@ footer {
   .map-site a:visited {color:#292E47}
   .map-site a:hover {color:#3D9FFF}
 
-  /* //////////////////////////////////// CONTACT PAGE */
+  /* /////////////////////////////////////////////// CONTACT PAGE */
 #contact-page {
     display: flex;
     flex-direction: column;
@@ -748,7 +748,7 @@ input:focus ~ label,
 textarea:focus ~ label,
 input:valid ~ label,
 textarea:valid ~ label {
-    font-size: 16px;
+    font-size: 12px;
     color: rgb(128, 127, 127);
     top: -3px;
     transition: all 0.225s ease;
@@ -763,9 +763,9 @@ textarea:valid ~ label {
 .styled-input label {
     color: #999;
    font-size: 18px;
-    padding: 1.3rem 30px 1rem 30px;
+    padding: 10px 30px 1rem 30px;
     position: absolute;
-    top: 25px;
+    top: 15px;
     left: 0;
     transition: all 0.25s ease;
     pointer-events: none;
@@ -819,7 +819,7 @@ textarea:valid ~ label {
 }
   /* //////////////////////////////////// MEDIA QUERIES */
 
-  /* //////////////////////////////////////////TABLET  */
+  /* ///////////////////////////////////////////////////TABLET  */
   @media (min-width: 768px) and (max-width:900px){
     
     header button {
@@ -958,7 +958,7 @@ textarea:valid ~ label {
     padding-right: 2%;
  }
 }
-  /* ////////////////////////////////////////// PHONE */
+  /* ///////////////////////////////////////////////////// PHONE */
 @media (min-width: 390px) and (max-width: 575.98px) {
     header {
         display: flex;
