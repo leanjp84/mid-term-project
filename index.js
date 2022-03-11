@@ -6,7 +6,7 @@
 const container = document.querySelector('.container-projects');
 
 const renderPosts = async () => {
-    let uri = "http://localhost:3000/posts";
+    let uri = "https://circle-website.free.beeceptor.com/posts";
     // SORT METHOD "hhttp://localhost:3000/posts?_sort=likes&order=desc"
 
     const res = await fetch(uri);
