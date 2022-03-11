@@ -34,29 +34,48 @@ const renderPosts = async () => {
 window.addEventListener('DOMContentLoaded', () => renderPosts());
 
 
-///////////////////////////////////////// FORM POST
+///////////////////////////////////////// FORM POST NO FUNCIONA
 
-const form = document.querySelector("#contact-form");
+// const form = document.querySelector("contact-form");
 
-const createMessage = async (e) => {
+// const createMessage = async (e) => {
+//     e.preventDefault();
+
+//     const doc = {
+//         name: document.querySelector("fullname").value,
+//         email: document.querySelector("email").value,
+//         phone: document.querySelector("phone").value,
+//         message: document.querySelector("message").value,
+//     }
+//     await fetch("http://localhost:3000/messages", {
+//         method: "POST",
+//         body: JSON.stringify(doc),
+//         headers: { 'Content-Type': 'application/json' }
+//     });
+
+//     alert("Thanks for your message! We'll respond ASAP");
+//     location.reload();
+
+// }
+
+// form.addEventListener('submit-btn', createMessage);
+
+
+///////////////////////////////////////// FORM POST TAMPOCO FUNCIONA
+async function createMessage2(e) {
     e.preventDefault();
-
     const doc = {
-        name: document.querySelector("fullname").value,
-        email: document.querySelector("email").value,
-        phone: document.querySelector("phone").value,
-        message: document.querySelector("message").value,
+        name: document.querySelector("#fullname").value,
+        email: document.querySelector("#email").value,
+        phone: document.querySelector("#phone").value,
+        message: document.querySelector("#message").value,
     }
-    await fetch("http://localhost:3000/messages", {
+    const messageInfo = await fetch("http://localhost:3000/messages", {
         method: "POST",
-        body: JSON.stringify(doc),
-        headers: { 'Content-Type': 'application/json' }
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(doc)
     });
-
-    alert("Thanks for your message! We'll respond ASAP");
-    location.reload();
-
+    const finalInfo = await messageInfo.json()
+    console.log(finalInfo)
 }
-
-form.addEventListener('submit-btn', createMessage);
-
+document.addEventListener('submit-btn', createMessage2);
