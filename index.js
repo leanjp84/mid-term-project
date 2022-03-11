@@ -6,22 +6,22 @@
 const container = document.querySelector('.container-projects');
 
 const renderPosts = async () => {
-    let uri = "https://circle-website.free.beeceptor.com/posts";
+    let uri = "https://marketplace.freelancewebdesign.online/wp-json/wp/v2/projects";
     // SORT METHOD "hhttp://localhost:3000/posts?_sort=likes&order=desc"
 
     const res = await fetch(uri);
     const posts = await res.json();
-    //console.log(posts);
+    console.log(posts);
 
     let template = " ";
     posts.forEach(post => {
         template += `
         <div class="project-card project-img">
-            <img src="${post.img}">
+            <img src="${post.better_featured_image.source_url}">
             <div class="carta1">
                  <div class="project-text">
-                        <p id="project-title1" class="body-medium">${post.title}</p>
-                        <p id="description1 " class="headline-regular" ">${post.description}</p>
+                        <p id="project-title1" class="body-medium">${post.title.rendered}</p>
+                        <p id="description1 " class="headline-regular" ">${post.acf.description}</p>
                         <br><br>
                         <a class=" headline-regular" href="">Learn More</a>
                     </div>
@@ -38,7 +38,7 @@ window.addEventListener('DOMContentLoaded', () => renderPosts());
 const container2 = document.querySelector('.container-projects2');
 
 const renderPosts2 = async () => {
-    let uri2 = "http://localhost:3000/posts2";
+    let uri2 = "https://marketplace.freelancewebdesign.online/wp-json/wp/v2/projects";
 
     const res2 = await fetch(uri2);
     const posts2 = await res2.json();
@@ -48,11 +48,11 @@ const renderPosts2 = async () => {
     posts2.forEach(post => {
         template2 += `
         <div class="project-card project-img">
-            <img src="${post.img}">
+            <img src="${post.better_featured_image.source_url}">
             <div class="carta1">
                  <div class="project-text">
-                        <p id="project-title1" class="body-medium">${post.title}</p>
-                        <p id="description1 " class="headline-regular" ">${post.description}</p>
+                        <p id="project-title1" class="body-medium">${post.title.rendered}</p>
+                        <p id="description1 " class="headline-regular" ">${post.acf.description}</p>
                         <br><br>
                         <a class=" headline-regular" href="">Learn More</a>
                     </div>
