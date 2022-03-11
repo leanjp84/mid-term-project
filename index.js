@@ -11,7 +11,7 @@ const renderPosts = async () => {
 
     const res = await fetch(uri);
     const posts = await res.json();
-    console.log(posts);
+    //console.log(posts);
 
     let template = " ";
     posts.forEach(post => {
@@ -91,4 +91,6 @@ const createMessage = async (e) => {
     location.reload();
 
 }
+
 form.addEventListener('submit-btn', createMessage);
+
